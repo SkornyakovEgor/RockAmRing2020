@@ -1,0 +1,46 @@
+h1{
+	background: linear-gradient(to left, #FA7E6B 80%,  #AA3A67);
+	font-family: latoblack, Arial;
+	font-size: 73px;
+	display: table;
+	-webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: -4px;
+}
+
+.title{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: font_awesome_5_freesolid;
+	display: flex;
+	flex-direction: column;
+	font-size: 24px;
+	margin-left: 200px;
+	margin-top: 130px;
+}
+
+.button1{
+	background: none;
+	text-transform: uppercase;
+	font-family: font_awesome_5_freesolid;
+	color: #fff;
+	width: 280px; 
+	height: 70px;
+	font-size: 24px;
+	margin-top: 60px;
+	border-image: linear-gradient(to top left, #FA7E6B 20%,  #AA3A67);
+	border-image-slice: 1;
+	border-width: 4px;
+	cursor: pointer;
+	transition: all 0.45s ease;
+}
+
+.button1:hover{
+	width: 290px;
+	height: 80px;
+	margin-top: 55px;
+	margin-bottom: -5px;
+	box-shadow: 0 0 5px linear-gradient(to top left, #FA7E6B 20%,  #AA3A67);
+}

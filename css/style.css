@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #fff;
+	cursor: default;
+	width: 100%;
+	max-width: 1920px;
+	background-color: #000;  
+	background-image: url(../img/Image1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: regular;
+}
+
+.conteiner{
+	width: 100%;
+	height: 400px;
+}
+

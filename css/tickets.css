@@ -1,0 +1,121 @@
+h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: font_awesome_5_freesolid;
+	margin-top: 180px; 
+	margin-bottom: 30px;
+}
+
+.tickets{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.tickets>div{
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width: 300px;
+	background-size: cover;
+	border-radius: 15px;
+	margin: 10px 20px;
+	font-family: font_awesome_5_freeregular;
+	font-size: 28px;
+    -webkit-filter: brightness(100%);
+    transition: all  0.5s ease;
+}
+
+.tickets>div:hover{
+	-webkit-filter: brightness(140%);
+	height: 520px;
+	width: 320px;
+	margin: 0px 10px;
+}
+
+.tickets button:hover{
+	background-color: rgba(255,255,255,0.1);
+	cursor: pointer;
+}
+
+p{
+	font-size: 12px;
+	text-align: center;
+	margin: 0 10px;
+}
+
+.price{
+	display: flex;
+	justify-content: center;
+	font-weight: 800;
+	margin-top: 150px;
+	font-family: latoblack;
+	font-size: 55px;
+}
+
+.price:before{
+	content:"$";
+	font-size: 35px;
+}
+
+.price:after{
+	content: ",00";
+	font-size: 35px;
+}
+
+
+#ticket1{
+	background: url(../img/ImageForTicket1.png);
+	
+}
+
+#ticket2{
+	background: url(../img/ImageForTicket2.png);
+
+}
+
+#ticket3{
+	background-image: linear-gradient(45deg, rgba(28,14,99, 0.85) 20%,  rgba(96,29,6, 0.85)), url(../img/ImageForTicket3.jpg);  
+
+}
+
+
+.ticket:hover{
+
+}
+
+.tickets>div>h2{
+	margin: 40px;
+}
+
+.ticket_button{
+	color: #fff;
+	height: 60px;
+	width: 250px;
+	margin: auto;
+	text-transform: uppercase;
+	background: none;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 4px;
+	cursor: pointer;
+	font-family: font_awesome_5_freeregular;
+	font-size: 22px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+.tickets_text{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+
+.description{
+	font-size: 22px;
+	margin: 0 180px;
+	margin-top: 35px;
+	font-family: font_awesome_5_freeregular;	
+}

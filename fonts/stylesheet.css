@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'font_awesome_5_brandsregular';
+    src: url('font_awesome_5_brands-regular-400-webfont.woff2') format('woff2'),
+         url('font_awesome_5_brands-regular-400-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'font_awesome_5_freeregular';
+    src: url('font_awesome_5_free-regular-400-webfont.woff2') format('woff2'),
+         url('font_awesome_5_free-regular-400-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'font_awesome_5_freesolid';
+    src: url('font_awesome_5_free-solid-900-webfont.woff2') format('woff2'),
+         url('font_awesome_5_free-solid-900-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('lato-black-webfont.woff2') format('woff2'),
+         url('lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
