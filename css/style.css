@@ -20,3 +20,7 @@ body{
 	height: 400px;
 }
 
+a{
+	text-decoration: none;
+	color: #fff;
+}

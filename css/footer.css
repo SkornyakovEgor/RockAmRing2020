@@ -1,0 +1,17 @@
+footer{
+	margin-top: 7 0px;
+	background: linear-gradient(to right, #53289F 10%, #602A69 40%, #772E0B 105%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100px;
+	margin-top: 100px;
+}
+
+footer>h2{
+	margin: 40px;
+	margin-left: 200px;
+	font-family: latoblack, regular; 
+	font-size: 28px;
+}
+

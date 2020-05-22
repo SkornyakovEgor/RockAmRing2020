@@ -1,0 +1,58 @@
+#message{
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#message>input, #message>textarea{
+	height: 30px;
+	width: 99%;
+	margin-bottom: 10px;
+	border-style: none;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: font_awesome_5_freeregular;
+	padding-left: 10px;
+	padding-top: 1px;
+	color: #FA7E6B;
+	background-color: #2F2F2F;
+}
+
+#message>textarea{
+	height: 100px;
+	padding-top: 6px;
+}
+
+#message>button{
+	width: 160px;
+	height: 35px;
+	background-color: #632A59;
+	border-style: none;
+	border-radius: 5px;
+	color: #fff;
+	font-family: font_awesome_5_freeregular;
+	font-size: 20px;
+	float: right;
+	padding-top: 3px;
+	cursor: pointer;
+	transition: all  0.3s ease;
+}
+
+#message>button:hover{
+	background-color: #7A346D;
+}
+
+#map{
+	display: block;
+	border-style: none;
+	border-radius: 5px;
+	height: 450px;
+	width: 900px;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 200px;
+	opacity: 0.65;
+	margin-bottom: -50px;
+}
+

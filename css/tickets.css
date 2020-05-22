@@ -33,22 +33,17 @@ h2{
 	margin: 0px 10px;
 }
 
-.tickets button:hover{
-	background-color: rgba(255,255,255,0.1);
-	cursor: pointer;
-}
-
 p{
 	font-size: 12px;
 	text-align: center;
-	margin: 0 10px;
+	margin: 0 20px;
 }
 
 .price{
 	display: flex;
 	justify-content: center;
 	font-weight: 800;
-	margin-top: 150px;
+	margin-top: 100px;
 	font-family: latoblack;
 	font-size: 55px;
 }
@@ -85,7 +80,7 @@ p{
 }
 
 .tickets>div>h2{
-	margin: 40px;
+	margin: 40px 50px;
 }
 
 .ticket_button{
@@ -98,11 +93,18 @@ p{
 	border-style: solid;
 	border-color: #fff;
 	border-width: 4px;
+	border-radius: 5px;
 	cursor: pointer;
 	font-family: font_awesome_5_freeregular;
 	font-size: 22px;
 	margin-bottom: 20px;
 	margin-top: 25px;
+	transition: all  0.3s ease;
+}
+
+.ticket_button:hover{
+	background-color: rgba(255,255,255,0.15);
+	cursor: pointer;
 }
 
 .tickets_text{

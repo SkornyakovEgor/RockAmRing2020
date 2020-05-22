@@ -1,13 +1,14 @@
 h1{
 	background: linear-gradient(to left, #FA7E6B 80%,  #AA3A67);
 	font-family: latoblack, Arial;
-	font-size: 73px;
+	font-size: 7	0px;
 	display: table;
 	-webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: -4px;
+
 }
 
 .title{
