@@ -14,8 +14,8 @@
 .modal {
    opacity: 0;
    visibility: hidden;
-   width: 100%;
-   max-width: 500px;  
+   height: 500px;
+   width: 800px;  
    position: fixed;
    top: 50%;
    left: 50%;
@@ -24,8 +24,8 @@
    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2); 
    text-align: center;
    padding: 30px;
-   border-radius: 3px;
-   background-color: #fff;
+   border-radius: 5px;
+   background: linear-gradient(to right, #53289F 10%, #602A69 40%, #772E0B 105%);
    transition: 0.3s all;
 }
 
@@ -35,12 +35,12 @@
 }
 
 .modal__cross {
-   width: 15px;
-   height: 15px;
+   width: 25px;
+   height: 25px;
    position: absolute;
-   top: 20px;
-   right: 20px;
-   fill: #444;
+   top: 40px;
+   right: 30px;
+   fill: #fff;
    cursor: pointer;
 }
 
@@ -60,7 +60,8 @@
 }
 
 .modal h3{
-	color: black;
+	font-weight: 800;
+	font-size: 40px;
 }
 
 #musicians{
