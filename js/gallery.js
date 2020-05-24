@@ -4,7 +4,7 @@
       $lightbox = $('.lightbox'),
       $next = $('.next'),
       $prev = $('.prev'),
-      $overlay = $('.overlay'),
+      $overlay1 = $('.overlay1'),
       liIndex,
       targetImg;
   
@@ -45,7 +45,7 @@
     $lightbox.fadeOut();
   }
 
-  $overlay.click(closeLigtbox);
+  $overlay1.click(closeLigtbox);
 
   $links.click(function(e) {
     e.preventDefault();

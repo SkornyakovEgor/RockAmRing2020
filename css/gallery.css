@@ -68,7 +68,7 @@ img {
   overflow-y: auto;
 }
 
-.overlay {
+.overlay1 {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -89,12 +89,16 @@ img {
 .next, .prev {
   display: inline-block;
   color:#fff;
-  margin: 15px 10px;
+  margin: 15px 0px;
   cursor: pointer;
   font-size: 25px;
   font-family: font_awesome_5_freesolid;
   font-weight: 800;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
+  background-color: rgba(0,0,0,0.5);
+  height: 30px;
+  width: 150px;
+  box-shadow: -14px 0 15px 5px rgba(0,0,0,.5);
 }
 
 .next:hover, .prev:hover{

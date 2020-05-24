@@ -5,6 +5,11 @@
 
 .menu_item:hover{
 	text-shadow: #fff 0 0 3px;
+	color: #FA7E6B;
+}
+
+.menu_item a:focus{
+	text-shadow: #fff 0 0 3px;
 }
 
 .menu_item>a{
@@ -48,3 +53,13 @@ header{
 .social_item:hover{
 	text-shadow: #fff 0 0 3px;
 }
+
+.social_item a:focus{
+	text-shadow: #fff 0 0 3px;
+}
+
+.active_item a{
+	color: #FA7E6B; 
+}
+
+

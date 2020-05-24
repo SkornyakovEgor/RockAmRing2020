@@ -8,10 +8,14 @@ footer{
 	margin-top: 100px;
 }
 
-footer>h2{
+footer h2{
 	margin: 40px;
 	margin-left: 200px;
 	font-family: latoblack, regular; 
 	font-size: 28px;
+	transition: all 0.2s;
 }
 
+footer h2:hover{
+	text-shadow: #fff 0 0 3px;
+}
