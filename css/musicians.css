@@ -27,6 +27,7 @@
    border-radius: 5px;
    background: linear-gradient(to right, #53289F 10%, #602A69 40%, #772E0B 105%);
    transition: 0.3s all;
+   font-family: font_awesome_5_freeregular;
 }
 
 .modal.active, .overlay.active{
@@ -45,14 +46,17 @@
 }
 
 .js-open-modal {
+	display: block;
+	max-width: 100%;
    text-decoration: none;
-   margin-left: 200px;
    color: #fff;
    font-size: 30px;
    font-weight: 800;
-   font-family: ;
+   font-family: font_awesome_5_freeregular, regular;
+   text-align: center;
    cursor: pointer;
    transition: all 0.2s;
+   
 }
 
 .js-open-modal:hover{

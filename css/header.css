@@ -28,6 +28,12 @@
 	margin-left: 200px;
 }
 
+@media (max-width: 600px){
+	.main_menu>ul{
+		display: none;
+	}
+}
+
 header{
 	display: flex;
 	flex-direction: row;
