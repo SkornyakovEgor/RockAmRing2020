@@ -13,6 +13,7 @@ body{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-family: regular;
+	box-shadow: 10px 0 140px rgba(0, 0, 0, .8) inset;
 }
 
 .conteiner{
