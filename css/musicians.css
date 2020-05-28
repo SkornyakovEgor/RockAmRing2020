@@ -48,6 +48,7 @@
 .js-open-modal {
 	display: block;
 	max-width: 100%;
+   margin: 10px 0;
    text-decoration: none;
    color: #fff;
    font-size: 30px;
@@ -69,5 +70,6 @@
 }
 
 #musicians{
-	margin-top: 150px;
+	margin-top: 200px;
+
 }

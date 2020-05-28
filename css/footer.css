@@ -6,6 +6,7 @@ footer{
 	justify-content: space-between;
 	height: 100px;
 	margin-top: 100px;
+	opacity: 0.9;
 }
 
 footer h2{

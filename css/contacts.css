@@ -57,6 +57,9 @@
 }
 
 #Strange_title_1{
+	display: block;
+	z-index: 1;
 	margin-top: 140px;
-	margin-bottom: -150px;		
+	margin-bottom: -150px;
+			
 }

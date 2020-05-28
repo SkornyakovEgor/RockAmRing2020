@@ -3,33 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Music Festival</title>
+	<link rel="icon" href="img/icon.png" type="image/png">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 <body>
 	<header>
-		<nav class="main_menu list">
-			<ul>
-				<li class="menu_item"><a href="HomePage.html">HOME</a></li>
-				<li class="menu_item active_item"><a href="Tikets.html">TICKETS</a></li>
-				<li class="menu_item"><a href="Musicians.html">MUSICIANS</a></li>
-				<li class="menu_item"><a href="Contacts.html">CONTACTS</a></li>
-			</ul>
-		</nav>
-		<ul class="socials list">
-			<li class="social_item">
-				<a href="https://www.instagram.com/rockamringofficial/"><i class="zmdi zmdi-instagram"></i></a>
-			</li>	
-			<li class="social_item">
-				<a href="https://www.facebook.com/rockamring/"><i class="zmdi zmdi-facebook-box"></i></a>
-			</li>
-			<li class="social_item">
-				<a href="https://www.youtube.com/channel/UCWanNIfYGE9H-D_yBduVGFg"><i class="zmdi zmdi-youtube-play"></i></a>
-			</li>
-			<li class="social_item">
-				<a href="https://twitter.com/rockamring"><i class="zmdi zmdi-twitter"></i></a>
-			</li>
-		</ul>
+		<div class="header_menu" > 
+			<nav class="menu">
+				<div class="menuToggle">MENU</div>
+				<ul class="main_menu ">
+					<li class="menu_item "><a href="HomePage.html">HOME</a></li>
+					<li class="menu_item active_item"><a href="Tikets.html">TICKETS</a></li>
+					<li class="menu_item"><a href="Musicians.html">MUSICIANS</a></li>
+					<li class="menu_item"><a href="Contacts.html">CONTACTS</a></li>
+				</ul>
+			</nav>
+			
+
+			<div class="socials">
+				<ul>
+					<li class="social_item">
+						<a href="https://www.instagram.com/rockamringofficial/"><i class="zmdi zmdi-instagram"></i></a>
+					</li>	
+					<li class="social_item">
+						<a href="https://www.facebook.com/rockamring/"><i class="zmdi zmdi-facebook-box"></i></a>
+					</li>
+					<li class="social_item">
+						<a href="https://www.youtube.com/channel/UCWanNIfYGE9H-D_yBduVGFg"><i class="zmdi zmdi-youtube-play"></i></a>
+					</li>
+					<li class="social_item">
+						<a href="https://twitter.com/rockamring"><i class="zmdi zmdi-twitter"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</header>
 	
 	<div class="title">
@@ -83,6 +91,9 @@
 		</ul>
 	</footer>
 
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script src="js/menu.js"></script>
+	
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

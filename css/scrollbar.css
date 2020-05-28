@@ -1,0 +1,24 @@
+::-webkit-scrollbar-button {
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:5px;
+	height:0px
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 5px;
+	background-color: #632A59;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color:#7A346D;
+}
+
+::-webkit-scrollbar{
+	width: 13px;
+}
