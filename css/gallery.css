@@ -33,12 +33,6 @@ img {
   }
 }
 
-@media(max-width: 650px){
-  .img-list{
-    grid-template-columns: 1fr;
-    width: 5o00px;
-  }
-}
 .img-list li {
   display: inline-block;
   list-style: none;

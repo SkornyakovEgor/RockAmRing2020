@@ -75,7 +75,7 @@
 }
 
 
-@media (max-width: 1150px){
+@media (min-width: 900px) and (max-width: 1150px){
 	.header_menu{
 		justify-content: space-around;
 		padding: 0;
@@ -85,13 +85,13 @@
 	}
 }
 
-@media (max-width: 900px){
+@media (min-width: 760px) and (max-width: 900px){
 	.main_menu{
 		width: 500px;
 	}
 }
  
-@media screen and (max-width: 760px){
+@media (min-width: 100px) and (max-width: 760px){
 	.header_menu ul{
 		display: none;
 	}
@@ -102,7 +102,7 @@
 		font-family: latoblack, regular;
 		font-size: 20px;
 		width: 100%;
-		left: 0;
+		left: 0px;
 		cursor: pointer;
 		text-align: center;
 		z-index: 102;
