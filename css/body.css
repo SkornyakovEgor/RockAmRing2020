@@ -1,7 +1,7 @@
 h1{
 	background: linear-gradient(to left, #FA7E6B 80%,  #AA3A67);
 	font-family: latoblack, Arial;
-	font-size: 7	0px;
+	font-size: 70px;
 	display: table;
 	-webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -44,4 +44,16 @@ h1{
 	margin-top: 55px;
 	margin-bottom: -5px;
 	box-shadow: 0 0 5px linear-gradient(to top left, #FA7E6B 20%,  #AA3A67);
+}
+
+@media (min-width: 100px) and (max-width: 760px){
+	.title{
+		margin-left: 20px;
+		top: 5;
+	}
+
+	.button1{
+		
+	}
+
 }

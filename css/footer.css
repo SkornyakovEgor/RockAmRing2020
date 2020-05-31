@@ -7,6 +7,7 @@ footer{
 	height: 100px;
 	margin-top: 100px;
 	opacity: 0.9;
+	z-index: -100;
 }
 
 footer h2{
@@ -17,6 +18,31 @@ footer h2{
 	transition: all 0.2s;
 }
 
+footer ul{
+	margin-right: 13%;
+}
+
 footer h2:hover{
 	text-shadow: #fff 0 0 3px;
+}
+
+@media (min-width: 100px) and (max-width: 760px){
+	footer{
+		width: 100%;
+		flex-direction: column;
+		height: 130px;
+	}
+
+	footer h2, footer ul{
+		margin: 0 auto;
+	}
+
+	footer h2{
+		padding-top: 20px;
+	}
+	
+	footer ul{
+		padding-bottom: 20px;
+	}
+	
 }

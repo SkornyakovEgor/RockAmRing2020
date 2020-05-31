@@ -39,16 +39,19 @@
 .socials{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	width: 150px;
 }
 
 .socials>ul{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	width: 150px;
 	text-decoration: none;
 }
 
 .social_item{
-	margin-right: 25px;
 	margin-top: 35px;
 	list-style-type: none;
 	cursor: pointer;
@@ -71,7 +74,7 @@
 .menuToggle{
 	display: none;
 	background: none;
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -94,22 +97,29 @@
 @media (min-width: 100px) and (max-width: 760px){
 	.header_menu ul{
 		display: none;
+		width: 100%;
+		height: 100%;
 	}
 	
 	.menuToggle{
 		display: block;
 		position: fixed;
+		background-color: #000;
 		font-family: latoblack, regular;
-		font-size: 20px;
+		font-size: 25px;
 		width: 100%;
 		left: 0px;
 		cursor: pointer;
 		text-align: center;
 		z-index: 102;
-		padding-top: 30px;
+		margin: 0 auto;
+		padding: 15px 0;
 		transition: all 0.4s ease;
 	}
-
+	
+	h3{
+		color: linear-gradient(to left, #FA7E6B 80%,  #AA3A67);
+	}
 	.menuToggle:hover{
 		text-shadow: #fff 0 0 3px;
 	}
@@ -128,7 +138,11 @@
 	}
 	
 	.main_menu li{
-		margin-top: 30px;
+		margin-top: 40px;
 		float: none;
+	}
+
+	.main_menu a{
+		font-size: 25px;
 	}
 }

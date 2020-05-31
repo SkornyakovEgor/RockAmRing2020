@@ -61,5 +61,10 @@
 	z-index: 1;
 	margin-top: 140px;
 	margin-bottom: -150px;
-			
+}
+
+@media (min-width: 100px) and (max-width: 760px){
+	#message{
+		width: 90%;
+	}
 }
