@@ -64,8 +64,12 @@ img {
   display: inline-block;
   position: relative;
   z-index: 1;
-  width: 60%;
+  width: 50%;
   max-width: 900px;
+}
+
+.lightbox img{
+   border-radius: 3px;
 }
 
 .next, .prev {
@@ -84,7 +88,7 @@ img {
 }
 
 .next:hover, .prev:hover{
-  text-shadow: #fff 0 0 3px;
+  color: #FA7E6B;
 }
 
 @media(max-width: 1000px){
@@ -98,9 +102,5 @@ img {
   .img-list{
     grid-template-columns: repeat(2, 1fr);
     width: 600px;
-  }
-
-  .lightbox figure{
-    display: block;
   }
 }

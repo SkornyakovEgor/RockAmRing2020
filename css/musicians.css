@@ -11,8 +11,7 @@
    transition: .3s all;
 }
 
-.modal {
-   opacity: 0;
+.modal{
    visibility: hidden;
    height: 500px;
    width: 800px;  
@@ -35,7 +34,7 @@
    visibility: visible;
 }
 
-.modal__cross {
+.modal__cross{
    width: 25px;
    height: 25px;
    position: absolute;
@@ -43,6 +42,14 @@
    right: 30px;
    fill: #fff;
    cursor: pointer;
+   transition: all 0.2s;
+}
+
+.modal__cross:hover{
+   width: 29px;
+   height: 29px;
+   top: 38px;
+   right: 28px;
 }
 
 .js-open-modal {
@@ -67,9 +74,149 @@
 .modal h3{
 	font-weight: 800;
 	font-size: 40px;
+   font-family: font_awesome_5_freeregular, regular;
+
+}
+
+.modal a{
+   transition: all 0.4s ease;
+}
+
+.modal a:hover{
+   color: #FA7E6B;
 }
 
 #musicians{
-	margin-top: 200px;
+	margin-top: 200px;  
+}
 
+audio{
+   height: 30px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+.bands_info{
+   padding-top: 30px;
+}
+
+.info{
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+}
+
+.info img{
+   border-radius: 7px;
+   max-width: 350px;
+   max-height: 440px;
+}
+
+.info div{
+   display: flex;
+   flex-direction: column;
+   padding-left: 30px;
+}
+
+.info p{
+   font-size: 20px;
+}
+
+.info li{
+   list-style-type: none; 
+   padding: 15px 0;
+}
+
+h4{
+   text-align: left;
+   padding-left: 25px; 
+   padding-bottom: 5px;
+   font-size: 17px;
+}
+
+.bands_social{
+   justify-content: flex-end; 
+   width: 100%;
+   
+}
+
+.bands_social_item{
+   margin-top: 15px;
+   list-style-type: none;
+   cursor: pointer;
+   font-size: 23px;
+   transition: all 0.4s ease;
+   margin-right: 25px;
+}
+
+.bands_social_item:hover{
+   text-shadow: #fff 0 0 3px;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 890px){
+   .modal{
+      width: 500px;
+      height: 90%
+   }
+
+   .info{
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .info img{
+      margin: 0 auto;
+      margin-top: -15px;
+      max-height: 380px;
+      max-width: 300px;
+   }
+
+   .info li{
+      padding: 5px 0;
+   }
+   
+   .bands_info{
+      padding-top: 10px;
+   }
+
+   .bands_info li:nth-child(2), .bands_info li:nth-child(3){
+      display: none;
+   }
+}
+
+@media (min-width: 100px) and (max-width: 700px){
+   .modal{
+      width: 300px;
+   }
+
+   .modal div{
+      padding: 0;
+   }
+
+   .info img{
+      margin: 0 auto;
+      margin-top: -15px;
+      max-height: 320px;
+      max-width: 270px;
+   }
+
+   .modal h3{
+      font-size: 35px;
+      margin-top: 20px;
+   }
+   
+   .modal__cross{
+      top: 60px;
+      right: 30px;
+   }
+
+   .info p{
+      margin-top: 20px;
+   }
+
+    .info li{
+      padding: 10px 0;
+   }
 }
