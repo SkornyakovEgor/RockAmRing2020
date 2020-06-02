@@ -54,12 +54,12 @@
 
 	<h2>WRITE TO US</h2>
 
-	<div id="message">
-		<input type="text" name="user" placeholder="Name" size="20" maxlength="20"/><br>
-		<input type="text" name="user" placeholder="Email" size="20" maxlength="30"/><br>
-		<textarea placeholder="Enter a message..."></textarea>
-		<button>SEND</button>	
-	</div>
+	<form id="message" action="mail.php" method="POST">
+		<input type="text" name="user_name" placeholder="Name" size="20" maxlength="20"/><br>
+		<input type="text" name="user_mail" placeholder="Email" size="20" maxlength="30"/><br>
+		<textarea type="text" name="user_text" placeholder="Enter a message..." ></textarea>
+		<button type="submit">SEND</button>	
+	</form>
 
 	<footer>
 		<a href="https://www.rock-am-ring.com/"><h2>ROCKamRING 2020</h2></a>
