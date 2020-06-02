@@ -6,7 +6,5 @@ $(function(){
                 $(this).removeAttr('style');
             }
        });
-
     });
-
 });
