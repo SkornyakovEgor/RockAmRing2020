@@ -26,7 +26,6 @@ img {
 
 .img-list img {
   width: 370px;
-  max-width: 100%;
   height: 220px;
   cursor: pointer;
   transition: all 0.2s;
@@ -73,40 +72,70 @@ img {
 .next, .prev {
   display: inline-block;
   color:#fff;
-  margin: 15px 0px;
+  margin: 15px;
   cursor: pointer;
   font-size: 25px;
   font-family: font_awesome_5_freesolid;
   font-weight: 800;
   transition: all 0.3s ease;
-  background-color: rgba(0,0,0,0.5);
   height: 30px;
-  width: 150px;
-  box-shadow: -14px 0 15px 5px rgba(0,0,0,.5);
 }
 
 .next:hover, .prev:hover{
   color: #FA7E6B;
 }
 
-@media(max-width: 1000px){
-  .img-list{
-    grid-template-columns: repeat(3, 1fr);
-    width: 800px;
-  }
+
+.description{
+  font-size: 22px;
+  font-family: font_awesome_5_freeregular;  
+  margin: 50px auto;
+  width: 90%;
 }
 
-@media(max-width: 800px){
-  .img-list{
-    grid-template-columns: 1fr;
-    width: 600px;
+  #gallery_title{
+    margin-top: 30px;
   }
 
-  .lightbox{
-    top: 200px;
+@media(max-width: 1000px){
+    .img-list{
+    display: inline-block;
+    width: 100%;
   }
+
+}
+
+@media(max-width: 850px){
+
 
   .lightbox figure {
-  width: 68%;
+     width: 90%;
+    top: 150px;
+  }
+
+  .gallery{
+     max-width: 100%;
+  }
+
+  .img-list img {
+    width: 320px;
+    height: 180px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .next, .prev{
+
+  } 
+
+}
+
+@media(max-height: 600px){
+   .lightbox figure {
+     top: 20px;
+      overflow-y: auto;
+    height: 80%;
+
+  }
 
 }

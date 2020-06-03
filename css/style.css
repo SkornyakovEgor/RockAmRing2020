@@ -18,10 +18,3 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
-
-@media (min-width: 100px) and (max-width: 760px){
-	body{
-		max-width: 500px;
-		position: relative;
-	}
-}

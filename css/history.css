@@ -1,69 +1,88 @@
  .history{
-	height: 700px;
-	max-height: 900px;
+	height: 800px;
 	background-image: url(../img/Image2.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	display: grid;
-	grid-template-rows: 20% 15% 75%;
-	grid-template-columns: repeat(2, 50%);
-	padding-right: 60px;
-	margin-top: 200px;	
-}
+	display: flex;
+	flex-direction: column;
+	margin-top: 200px;
+}	
 
 .history>h2{
-	grid-column-start: 2; 
 	margin: 0;
 	padding-top: 100px;
-	padding-left: 30px; 
-	justify-self: start;
-	align-self: stretch;
-	font-size: 37px;
+	margin-left: 50%; 
+	font-size: 40px;
+	text-align: start;
+	font-weight: 800;
+
 }
 
 .history>p{
-	margin: 0;
-	grid-column-start: 2; 
-	padding-left: 30px; 
-	padding-top: 40px;
-	justify-self: start;
-	align-self: stretch;
-	text-align: start;
+	margin-top: 4%;
+	margin-left: 50%; 
 	font-family: font_awesome_5_freeregular;
-	font-size: 20px;
+	font-size: 25px;
+	text-align: start;
+	font-weight: 600;
 }
 
 .event_description{ 
-	grid-column-start: 2;
+	margin-left: 50%; 
+	margin-top: 3%;
 	font-family: font_awesome_5_freeregular;
 	align-self: space-between;
 }
 
-.event_description>p{
-	margin: 0;
-	justify-self: start;
-	align-self: start;
-	text-align: start;
-	padding: 30px 0px;
-	padding-left: 80px;
-	font-size: 17px;
-	position: relative;
+.event_description li{
+	list-style-type: disc;
+	padding: 20px 0;
+	font-size: 20px; 
+	margin-left: 20px;
+	transition: all 0.3s ease;	
+	font-weight: 600;
 }
 
-.event_description>p:before{
-	content:"#";
-	display: block;
-	margin-right: 30px;
-	position: absolute; 
-	left: 30px;
-	color: #fff;
-	font-size: 40px;
-	font-family: latoblack;
-	transition:  all 0.2s ease;
+@media  (max-width: 1200px){
+	.history>h2{
+		padding-top: 30px;
+	}
+
+	.history>p{
+		margin-top: 15px;
+		color: #999999;
+	}
+	
+	.event_description{
+		margin-top: 20px;
+	}
+
+	.event_description li{
+		padding: 10px;
+	}
 }
 
-.event_description>p:hover:before{
-	color: #F97E6B;
-	cursor: pointer;
+@media all and (max-width: 1020px){
+	.history{
+		background-image: none;
+		width: 100%;
+	}
+
+	.history h2{
+		background: linear-gradient(to right, #53289F 10%, #602A69 40%, #772E0B 105%);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	}
+
+	.history>h2, .history>p, .event_description{
+		text-align: center;
+		margin:0;
+		padding: 20px 30px;
+	}
+
+	.event_description li{
+		list-style-type: none;
+		padding: 20px;
+	}
 }
 

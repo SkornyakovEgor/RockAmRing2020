@@ -27,6 +27,7 @@
    background: #222222;
    transition: 0.3s all;
    font-family: font_awesome_5_freeregular;
+   
 }
 
 .modal.active, .overlay.active{
@@ -46,9 +47,6 @@
 }
 
 .modal__cross:hover{
-   font-size: 45px;
-   top: 38px;
-   right: 28px;
    background: linear-gradient(to right, #53289F 10%, #602A69 40%, #772E0B 105%);
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -158,11 +156,11 @@ h4{
 
 
 
-
-@media (min-width: 100px) and (max-width: 890px){
+@media (max-width: 890px){
    .modal{
       width: 500px;
-      height: 90%
+      height: 90%;
+      overflow-y: auto;
    }
 
    .info{
@@ -185,14 +183,12 @@ h4{
       padding-top: 10px;
    }
 
-   .bands_info li:nth-child(2), .bands_info li:nth-child(3){
-      display: none;
-   }
 }
 
-@media (min-width: 100px) and (max-width: 700px){
+@media (min-width: 351px) and (max-width: 750px) {
    .modal{
-      width: 300px;
+      width: 100%;
+       overflow-y: auto;
    }
 
    .modal div{
@@ -223,4 +219,23 @@ h4{
     .info li{
       padding: 10px 0;
    }
+}
+
+
+@media (max-height: 600px){
+   .modal{
+      width: 100%; 
+       overflow-y: auto;
+   }
+   
+   .modal h3{
+      font-size: 35px;
+      margin-top: 50px;
+   }
+   
+   .modal__cross{
+      top: 70px;
+      right: 30px;
+   }
+
 }

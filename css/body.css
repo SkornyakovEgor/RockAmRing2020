@@ -47,13 +47,17 @@ h1{
 }
 
 @media (min-width: 100px) and (max-width: 760px){
+	body{
+		width: 100%;
+	}
 	.title{
 		margin-left: 20px;
 		top: 5;
 	}
+}
 
-	.button1{
-		
+@media (max-height: 600px){
+	body{
+		max-width: 100%;
 	}
-
 }

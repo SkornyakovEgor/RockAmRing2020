@@ -71,16 +71,14 @@ p{
 
 #ticket3{
 	background-image: linear-gradient(45deg, rgba(28,14,99, 0.85) 20%,  rgba(96,29,6, 0.85)), url(../img/ImageForTicket3.jpg);  
-
-}
-
-
-.ticket:hover{
-
 }
 
 .tickets>div>h2{
 	margin: 40px 50px;
+}
+
+.tickets form{
+	margin: 0 auto;
 }
 
 .ticket_button{
@@ -115,9 +113,106 @@ p{
 }
 
 
-.description{
-	font-size: 22px;
-	margin: 0 180px;
-	margin-top: 35px;
-	font-family: font_awesome_5_freeregular;	
+
+@media (max-width: 900px){
+	.tickets{
+		flex-direction: column;
+	}
+
+	.tickets>div{
+		height: 180px;
+		width: 95%;
+		flex-wrap: wrap;
+	}
+	
+	.tickets>div:hover{
+		height: 180px;
+		width: 95%;
+		margin: 10px 20px;
+		flex-wrap: wrap;
+	}
+
+	#ticket1{
+	    background-image: linear-gradient(45deg, rgba(28,14,99, 0.85) 20%,  rgba(96,29,6, 0.85)), url(../img/ForTicket1.png);  
+	    background-size: 800px auto;
+	}	
+
+	#ticket2{
+	    background-image: linear-gradient(45deg, rgba(28,14,99, 0.85) 20%,  rgba(96,29,6, 0.85)), url(../img/ForTicket2.1.png);  
+	    background-size: 800px auto;
+	}	
+	
+	#ticket3{
+	    background-image: linear-gradient(45deg, rgba(28,14,99, 0.85) 20%,  rgba(96,29,6, 0.85)), url(../img/ForTicket3.png);  
+	}	
+
+	.price{
+		display: flex;
+		justify-content: center;
+		font-weight: 800;
+		margin: 0px;
+		font-family: latoblack;
+		font-size: 55px;
+	}
+
+	.tickets p{
+		display: none;
+	}
+
+	.ticket_button{
+		height: 50%;
+		margin-top: 40px;
+	}
+}	
+
+@media (max-width: 650px){
+
+	.tickets{
+		width: 100;
+	}
+
+	.tickets>div{
+		margin: 10px auto;
+		display: flex;
+		flex-direction: column;
+		height: 400px;
+		width: 300px;
+		background-size: cover;
+		border-radius: 15px;
+		font-family: font_awesome_5_freeregular;
+		font-size: 28px;
+	    -webkit-filter: brightness(100%);
+	}
+	
+
+	.tickets>div:hover{
+		-webkit-filter: brightness(100%);
+		height: 400px;
+		width: 300px;
+		margin: 10px auto;
+	}
+
+
+	.tickets button{
+		margin: 0 auto;
+		margin-top: 40px;
+		height: 100px;
+	}
+
+	#ticket1{
+		background: url(../img/ImageForTicket1.png);
+		
+	}
+
+	#ticket2{
+		background: url(../img/ImageForTicket2.png);
+
+	}
+
+	#ticket3{
+		background-image: linear-gradient(45deg, rgba(28,14,99, 0.85) 20%,  rgba(96,29,6, 0.85)), url(../img/ImageForTicket3.jpg);  
+	}
+
+
+
 }
