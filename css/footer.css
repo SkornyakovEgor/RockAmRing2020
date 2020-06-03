@@ -1,5 +1,5 @@
 footer{
-	margin-top: 7 0px;
+	margin-top: 70px;
 	background: linear-gradient(to right, #53289F 10%, #602A69 40%, #772E0B 105%);
 	display: flex;
 	flex-direction: row;
@@ -9,6 +9,7 @@ footer{
 	opacity: 0.9;
 	z-index: -100;
 	margin-bottom: 0;
+	bottom: 0;
 }
 
 footer h2{
