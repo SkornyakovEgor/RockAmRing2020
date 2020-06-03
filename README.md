@@ -33,6 +33,8 @@
 
 ### Используемые технологии
 
+[Formspree](https://formspree.io/register)
+
 [jQuery](https://jquery.com/)
 
 [Yandex map](https://yandex.ru/maps/)
