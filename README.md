@@ -1,5 +1,5 @@
 ﻿**Курсовая работа по теме**
-# Разработка сайта музыкального фестиваля «Rock am Ring 2020»
+# Разработка веб-сайта музыкального фестиваля «Rock am Ring 2020»
 
 Автор: cтудент группы КЭ-303 **Скорняков Е.А.**
 
@@ -23,6 +23,8 @@
 
 **fonts** [(просмотр)](https://github.com/Ottrer19/RockAmRing2020/tree/master/fonts) - файлы используемых шрифтов.
 
+**bands** [(просмотр)](https://github.com/Ottrer19/RockAmRing2020/tree/master/bands) - файлы, содержащие информацию об исполнителях.
+
 **img** [(просмотр)](https://github.com/Ottrer19/RockAmRing2020/tree/master/img) - используемые изображения.
 
 **js** [(просмотр)](https://github.com/Ottrer19/RockAmRing2020/tree/master/js) - файлы JavaScript скриптов. 
@@ -32,6 +34,8 @@
 -------------------------------------------------------------
 
 ### Используемые технологии
+
+[Конструктор карт Яндекс](https://yandex.ru/map-constructor/)
 
 [Formspree](https://formspree.io/register)
 
