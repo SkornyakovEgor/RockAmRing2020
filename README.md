@@ -35,8 +35,6 @@
 
 ### Используемые технологии
 
-[Конструктор карт Яндекс](https://yandex.ru/map-constructor/)
-
 [Formspree](https://formspree.io/register)
 
 [jQuery](https://jquery.com/)
