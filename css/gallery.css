@@ -93,6 +93,16 @@ img {
   width: 90%;
 }
 
+.description a{
+  color: #FA7E6B;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+
+.description a:hover{
+  text-decoration: underline; 
+}
+
   #gallery_title{
     margin-top: 30px;
   }
@@ -124,16 +134,12 @@ img {
     transition: all 0.2s;
   }
 
-  .next, .prev{
-
-  } 
-
 }
 
 @media(max-height: 600px){
    .lightbox figure {
      top: 20px;
-      overflow-y: auto;
+    overflow-y: auto;
     height: 80%;
 
   }
