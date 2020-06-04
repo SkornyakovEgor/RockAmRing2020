@@ -73,12 +73,16 @@
 	font-size: 30px;
 	padding: 20px;
 	text-align: center;
-	cursor: pointer;
+	
+}
+
+#links_in_contacts a{
 	transition: all 0.3s ease;
 }
 
-#links_in_contacts>li:hover{
+#links_in_contacts a:hover{
 	color: #FA7E6B;
+	cursor: pointer;
 }
 
 @media (min-width: 100px) and (max-width: 760px){
