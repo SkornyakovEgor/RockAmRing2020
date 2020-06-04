@@ -63,6 +63,24 @@
 	margin-bottom: -150px;
 }
 
+#links_in_contacts{
+	margin-top: 30px;
+}
+
+#links_in_contacts>li{
+	margin: 0;
+	font-family: font_awesome_5_freeregular;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+#links_in_contacts>li:hover{
+	color: #FA7E6B;
+}
+
 @media (min-width: 100px) and (max-width: 760px){
 	#message{
 		width: 90%;

@@ -96,7 +96,7 @@ img {
 .description a{
   color: #FA7E6B;
   cursor: pointer;
-  transition: all 0.3 ease;
+  transition: all 0.3s ease;
 }
 
 .description a:hover{
