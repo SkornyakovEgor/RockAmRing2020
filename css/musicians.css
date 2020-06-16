@@ -54,8 +54,8 @@
 }
 
 .js-open-modal {
-	display: block;
-	max-width: 100%;
+   display: block;
+   max-width: 100%;
    margin: 15px 0;
    text-decoration: none;
    color: #fff;
@@ -68,12 +68,12 @@
 }
 
 .js-open-modal:hover{
-	color: #FA7E6B;
+   color: #FA7E6B;
 }
 
 .modal h3{
-	font-weight: 800;
-	font-size: 40px;
+   font-weight: 800;
+   font-size: 40px;
    font-family: font_awesome_5_freeregular, regular;
 
 }
@@ -90,7 +90,7 @@
 }
 
 #musicians{
-	margin-top: 200px;  
+   margin-top: 200px;  
 }
 
 audio{

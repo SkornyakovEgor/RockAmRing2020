@@ -32,3 +32,26 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'trend_sansfour';
+    src: url('trendsansfour-webfont.eot');
+    src: url('trendsansfour-webfont.eot?#iefix') format('embedded-opentype'),
+         url('trendsansfour-webfont.woff2') format('woff2'),
+         url('trendsansfour-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futuralightlight';
+    src: url('futuralight-light_allfont.ru-webfont.eot');
+    src: url('futuralight-light_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futuralight-light_allfont.ru-webfont.woff2') format('woff2'),
+         url('futuralight-light_allfont.ru-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

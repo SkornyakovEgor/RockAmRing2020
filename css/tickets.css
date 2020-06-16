@@ -28,9 +28,7 @@ h2{
 
 .tickets>div:hover{
 	-webkit-filter: brightness(140%);
-	height: 520px;
-	width: 320px;
-	margin: 0px 10px;
+	transform: scale(1.1);
 }
 
 p{
